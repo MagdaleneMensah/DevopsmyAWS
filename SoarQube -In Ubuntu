@@ -109,6 +109,17 @@ ulimit -n 131072
 ulimit -u 8192
 <img width="279" alt="Screenshot 2023-08-02 002606" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/7b476712-0ef3-4904-ab72-b1106b162fae">
 
+## Save the file and close the editor when you are finished.
+
+## Now that you have completed the configuration of your Ubuntu system for SnonarQube installation. You will be downloading the SonarQube package and setting up SonarQube installation in the next step.
+Downloading SonarQube Package
+The SonarQube can be installed in two different ways, via zip file and Docker image. In this example, you will install the SonarQube via the zip file package that you will download from the official SonarQube download page.
+At the time of this writing, the SonarQube latest version v9.6.1, which you will be installing in the following steps.
+Before downloading the SonarQube package, run the following apt command to install a basic package such as unzip and wget.
+
+sudo apt install unzip software-properties-common wget
+<img width="471" alt="Screenshot 2023-08-02 003948" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/255a2a76-f324-43ee-94b5-2ceff4d0b0d1">
+
 
 
 
