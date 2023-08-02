@@ -65,6 +65,13 @@ CREATE DATABASE sonarqube OWNER sonarqube;
 GRANT ALL PRIVILEGES ON DATABASE sonarqube TO sonarqube;
 <img width="457" alt="Screenshot 2023-08-01 234202" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ed6654a7-2816-420c-a672-b32c98c8135c">
 
+## Next, run the following queries to check the list of databases and users on the PostgreSQL server.
+\l
+<img width="471" alt="Screenshot 2023-08-01 234648" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/f244e516-dad3-48ce-a9a1-a277bb59bff2">
+
+\du
+<img width="472" alt="Screenshot 2023-08-01 234916" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/68f4c26f-8b5a-49cd-9500-f3d4d21e12e1">
+
 
 
 
