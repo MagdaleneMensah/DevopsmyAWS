@@ -1,0 +1,6 @@
+## SoarQube -In Ubuntu.docx
+
+Your first step here is to install the Java OpenJDK on your Ubuntu system. The SonarQube server required Java OpenJDK v11 to be installed on your Linux machine.
+Before start installing packages, run the following apt command to update and refresh your Ubuntu package index repository.
+
+sudo apt update
