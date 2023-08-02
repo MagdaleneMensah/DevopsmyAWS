@@ -28,5 +28,10 @@ wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key a
 ## Now add the PostgreSQL repository for the Ubuntu system using the below command.
 
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+<img width="471" alt="Screenshot 2023-08-01 231512" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/f96d9ca5-38dd-4545-9c95-467117d067ab">
 
+## Then, update and refresh your ubuntu package index.
+
+sudo apt update
+<img width="466" alt="Screenshot 2023-08-01 231756" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/36031458-f4cb-4ee6-8754-5b9c630ee0f6">
 
