@@ -54,6 +54,17 @@ Run the following command to log in to the PostgreSQL shell.
 sudo -u postgres psql
 <img width="443" alt="Screenshot 2023-08-01 233532" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/43bd17ea-c3ee-483b-8cd1-06d64de6ea72">
 
+## Now, run the following PostgreSQL queries to create a new database and user for SnonarQube. In this example, you will create the PostgreSQL database and user 'sonarqube'. And be sure to change the password with a strong password.
+
+CREATE USER sonarqube WITH PASSWORD 'Password';
+<img width="388" alt="Screenshot 2023-08-01 233859" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/c6d1a938-ff4f-485c-9abe-60d898a18055">
+
+CREATE DATABASE sonarqube OWNER sonarqube;
+<img width="351" alt="Screenshot 2023-08-01 234037" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/da8552e8-8fad-4710-9987-636f52a2af5a">
+
+GRANT ALL PRIVILEGES ON DATABASE sonarqube TO sonarqube;
+<img width="457" alt="Screenshot 2023-08-01 234202" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ed6654a7-2816-420c-a672-b32c98c8135c">
+
 
 
 
