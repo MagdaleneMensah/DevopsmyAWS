@@ -136,6 +136,10 @@ unzip sonarqube-9.6.1.59531.zip
 sudo mv sonarqube-9.6.1.59531 /opt/sonarqube
 <img width="466" alt="Screenshot 2023-08-02 010642" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d1483f70-f575-4f22-8ed9-f2d5dfb769a5">
 
+## Lastly change the ownership of the SonarQube installation directory '/opt/sonarqube' to the user 'sonarquba' via the chown command as below.
+
+sudo chown -R sonarqube:sonarqube /opt/sonarqube
+<img width="470" alt="Screenshot 2023-08-02 010858" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/dc2a1924-2cf1-4d19-87db-dc67ef5e063a">
 
 
 
