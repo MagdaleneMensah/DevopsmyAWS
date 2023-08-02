@@ -105,7 +105,10 @@ sudo sysctl --system
 ## Next run the following command to set up ulimit for the SonarQube. This will take temporary effects on your system, when the system is rebooted, the ulimits will revert to default.
 ulimit -n 131072
 <img width="294" alt="Screenshot 2023-08-02 002430" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/18ec3e17-ec5d-4843-a087-8ce27f4609ad">
+
 ulimit -u 8192
+<img width="279" alt="Screenshot 2023-08-02 002606" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/7b476712-0ef3-4904-ab72-b1106b162fae">
+
 
 
 
