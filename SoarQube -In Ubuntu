@@ -15,3 +15,5 @@ sudo apt install default-jdk
 ## Once Java OpenJDK is installed, verify the Java version using the following java command. You will see the output of the Java version that is installed on your system.
 
 java -version
+<img width="471" alt="Screenshot 2023-08-01 230901" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/b2aa02c2-43ee-491c-9e86-e4f1a4ac4cad">
+
