@@ -25,4 +25,8 @@ First, add the GPG key of the PostgreSQL repository using the following command.
 wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
 <img width="470" alt="Screenshot 2023-08-01 231133" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ddfc0a2f-b37f-474e-8df5-e072e42c3526">
 
+## Now add the PostgreSQL repository for the Ubuntu system using the below command.
+
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+
 
