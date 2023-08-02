@@ -131,6 +131,12 @@ Extract the SonarQube package using the unzip command below. You should get a ne
 unzip sonarqube-9.6.1.59531.zip
 <img width="473" alt="Screenshot 2023-08-02 005301" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/7705cfb0-26d2-45dc-85b5-278a3ce96b7b">
 
+## Move the directory 'sonarqube-9.6.1.59531' to the '/opt/sonarqube' using the below command.
+
+sudo mv sonarqube-9.6.1.59531 /opt/sonarqube
+<img width="466" alt="Screenshot 2023-08-02 010642" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d1483f70-f575-4f22-8ed9-f2d5dfb769a5">
+
+
 
 
 
