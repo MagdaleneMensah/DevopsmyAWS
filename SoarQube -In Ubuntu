@@ -17,3 +17,12 @@ sudo apt install default-jdk
 java -version
 <img width="471" alt="Screenshot 2023-08-01 230901" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/b2aa02c2-43ee-491c-9e86-e4f1a4ac4cad">
 
+## Installing PostgreSQL Database System
+SonarQube supports multiple database systems such as PostgreSQL, Microsoft SQL Server, and oracle database. For this example, you will use PostgreSQL as the database for your SonarQube installation.
+At the time of this writing, the latest version of SonarQube required at least PostgreSQL v9.6. In this guide, you will install PostgreSQL v13 from the official PostgreSQL repository.
+First, add the GPG key of the PostgreSQL repository using the following command.
+
+wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
+<img width="470" alt="Screenshot 2023-08-01 231133" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ddfc0a2f-b37f-474e-8df5-e072e42c3526">
+
+
