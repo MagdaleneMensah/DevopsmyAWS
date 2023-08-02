@@ -35,3 +35,9 @@ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`
 sudo apt update
 <img width="466" alt="Screenshot 2023-08-01 231756" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/36031458-f4cb-4ee6-8754-5b9c630ee0f6">
 
+## Now, install the PostgreSQL database v13 via the apt command below. Input Y when prompted to confirm the installation, then press ENTER to proceed.
+
+sudo apt install postgresql-13
+<img width="469" alt="Screenshot 2023-08-01 232316" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/a27c1714-0ddc-42ac-b559-ccf382a6028b">
+
+
