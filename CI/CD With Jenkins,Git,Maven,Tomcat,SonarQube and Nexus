@@ -68,26 +68,9 @@ git --version
 mvn --version
 <img width="344" alt="Screenshot 2023-08-02 213111" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/12984e4e-56d4-4948-ba5c-38d433350cae">
 
-cd /opt
-<img width="175" alt="Screenshot 2023-08-02 214420" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/1d1cd4a3-a215-4529-845b-de25a502ff1f">
-
- wget https://dlcdn.apache.org/maven/maven-3/3.9.3/binaries/apache-maven-3.9.3-bin.tar.gz
-<img width="727" alt="Screenshot 2023-08-02 234812" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/eb59e390-65c3-458a-88db-14ccbcf64f4a">
-
-
-ls -l
-<img width="484" alt="Screenshot 2023-08-02 215356" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/3e0f8e98-8412-4c4c-ac5c-d174b86cefc0">
-
-tar -xvf apache-maven-3.9.3-bin.tar.gz  
-<img width="725" alt="Screenshot 2023-08-02 215807" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/320a6343-c2a5-4720-a6cf-5102fdfba483">
-
-ls -l
-<img width="508" alt="Screenshot 2023-08-02 215957" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/f3c1bd4c-0ad2-45b2-b8bc-59ab4b825acf">
-
-sudo rm -rf apache-maven-3.9.0-bin.tar.gz
-<img width="414" alt="Screenshot 2023-08-02 220455" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/4b2defe8-74cd-48eb-9974-389880d986e1">
-
-sudo mv apache-maven-3.9.0/ maven-39
+sudo apt install maven -y
+<img width="471" alt="Screenshot 2023-08-03 121729" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/4bdfef37-b3a2-4b9c-9899-e29658b0fec3">
+ 
 
 
 
