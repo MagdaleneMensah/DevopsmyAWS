@@ -71,6 +71,9 @@ mvn --version
 sudo apt install maven -y
 <img width="471" alt="Screenshot 2023-08-03 121729" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/4bdfef37-b3a2-4b9c-9899-e29658b0fec3">
  
+mvn --version
+<img width="473" alt="Screenshot 2023-08-03 122314" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/e290db0a-d0ad-44db-a4c5-0ea188451f68">
+
 
 
 
