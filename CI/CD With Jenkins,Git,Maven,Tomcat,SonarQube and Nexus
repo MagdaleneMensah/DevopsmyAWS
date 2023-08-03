@@ -19,3 +19,20 @@ sudo apt-get install openjdk-11-jre-headless -y
 sudo apt-get install openjdk-8-jre-headless -y
 <img width="457" alt="Screenshot 2023-08-02 194547" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/138c8994-7861-4b7c-841a-17b8dd508d39">
 
+ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+<img width="473" alt="Screenshot 2023-08-02 195358" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/5e7195f0-4243-4198-ae49-ee5f3e0cdb9b">
+
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+    /etc/apt/sources.list.d/jenkins.list > /dev/null
+<img width="478" alt="Screenshot 2023-08-02 195602" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/f208fb3c-09b1-4e41-8034-453cb91a1da2">
+
+ sudo apt-get update -y
+<img width="471" alt="Screenshot 2023-08-02 195808" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/da8c1b7b-81ff-4a8d-9b62-0796d6e4ad28">
+
+sudo apt-get install fontconfig openjdk-11-jre -y
+<img width="462" alt="Screenshot 2023-08-02 200021" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/c98a0493-6861-4263-bbfc-62c1d3fbd7e0">
+
+ sudo apt-get install jenkins -y
+<img width="474" alt="Screenshot 2023-08-02 200355" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/34978c71-bb59-4264-a0ec-068e5360c874">
