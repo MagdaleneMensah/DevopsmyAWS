@@ -74,8 +74,17 @@ cd /opt
 sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.3/binaries/apache-maven-3.9.3-bin.tar.gz
 <img width="931" alt="Screenshot 2023-08-02 214823" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/48b50810-863b-48cb-9302-dd55d8e90c6a">
 
+ls -l
+<img width="484" alt="Screenshot 2023-08-02 215356" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/3e0f8e98-8412-4c4c-ac5c-d174b86cefc0">
 
+tar -xvf apache-maven-3.9.3-bin.tar.gz  
+<img width="725" alt="Screenshot 2023-08-02 215807" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/320a6343-c2a5-4720-a6cf-5102fdfba483">
 
+ls -l
+<img width="508" alt="Screenshot 2023-08-02 215957" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/f3c1bd4c-0ad2-45b2-b8bc-59ab4b825acf">
+
+sudo rm -rf apache-maven-3.9.0-bin.tar.gz
+<img width="414" alt="Screenshot 2023-08-02 220455" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/4b2defe8-74cd-48eb-9974-389880d986e1">
 
 
 
