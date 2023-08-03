@@ -52,6 +52,28 @@ To assess Jenkins copy you public IP and open any browser paste your IP and run 
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 <img width="479" alt="Screenshot 2023-08-02 211836" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/cc9b1a1b-0204-462c-a2e9-3972d09a598f">
 
+## 2. Install and configure Git:
+   - Install Git on the server where Jenkins is running.
+   - Set up a Git repository to store your source code.
+
+git --version
+<img width="208" alt="Screenshot 2023-08-02 212839" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ea09ff15-4723-4566-8b23-07954d265f04">
+
+
+3. Install and configure Maven:
+   - Download Maven from the official website and extract it to a desired location.
+   - Add the Maven `bin` directory to the system's `PATH` environment variable.
+   - Verify the installation by running `mvn -v` in the terminal.
+
+mvn --version
+<img width="344" alt="Screenshot 2023-08-02 213111" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/12984e4e-56d4-4948-ba5c-38d433350cae">
+
+cd /opt
+<img width="175" alt="Screenshot 2023-08-02 214420" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/1d1cd4a3-a215-4529-845b-de25a502ff1f">
+
+sudo wget https://dlcdn.apache.org/maven/maven-3/3.9.3/binaries/apache-maven-3.9.3-bin.tar.gz
+<img width="931" alt="Screenshot 2023-08-02 214823" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/48b50810-863b-48cb-9302-dd55d8e90c6a">
+
 
 
 
