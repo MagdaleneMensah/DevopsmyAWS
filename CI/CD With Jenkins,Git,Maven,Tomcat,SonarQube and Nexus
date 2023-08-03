@@ -47,11 +47,10 @@ sudo systemctl enable jenkins
 <img width="476" alt="Screenshot 2023-08-02 202043" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/b731b39f-1c0b-4713-8c04-d84db75c5038">
 
 To assess Jenkins copy you public IP and open any browser paste your IP and run on port 8080
-
 <img width="762" alt="Screenshot 2023-08-02 202742" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/779c01fb-2290-4f85-93d1-416dc9b1c936">
 
-
-
+cat /var/lib/jenkins/secrets/initialAdminPassword
+<img width="464" alt="Screenshot 2023-08-02 203418" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/c5d1a126-5dac-4618-a793-578cce6c824e">
 
 
 
