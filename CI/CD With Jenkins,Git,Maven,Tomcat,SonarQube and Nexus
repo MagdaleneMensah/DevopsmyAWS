@@ -1,1 +1,21 @@
+# CI/CD WITH JENKINS,GIT,TOMCAT,SONARQUBE AND NEXUS.
+
+
+## 1. Install Jenkins:
+   - Download the Jenkins WAR file from the official website.
+   - Open a terminal and navigate to the directory where the WAR file is located.
+   - Run the command: `java -jar jenkins.war`.
+   - Access Jenkins through the browser using `http://localhost:8080`.
+
+sudo apt-get update -y
+<img width="470" alt="Screenshot 2023-08-02 193749" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/88a0fdc8-e279-4f4f-8f96-57c5954cb807">
+
+sudo hostnamectl set-hostname jenkins
+<img width="423" alt="Screenshot 2023-08-02 194055" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/7d680aea-e9b8-46f8-b6ab-b0881d017e36">
+
+sudo apt-get install openjdk-11-jre-headless -y
+<img width="472" alt="Screenshot 2023-08-02 194341" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/f130a186-405c-448c-9a74-bbca0a56bf68">
+
+sudo apt-get install openjdk-8-jre-headless -y
+<img width="457" alt="Screenshot 2023-08-02 194547" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/138c8994-7861-4b7c-841a-17b8dd508d39">
 
