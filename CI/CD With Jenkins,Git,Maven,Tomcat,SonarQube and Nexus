@@ -137,8 +137,15 @@ source ~/.bashrc
 mvn --version
 <img width="473" alt="Screenshot 2023-08-03 213645" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/2a655931-2508-41f9-b593-fba60fdeeaa2">
 
+# now open your sonarqube ubuntu server
+## 
+9. Install and configure SonarQube:
+   - Download and install SonarQube server from the official website.
+   - Start the SonarQube server and access the dashboard using `http://localhost:9000`.
+   - Configure SonarQube projects and quality gates as per your project requirements.
 
-
+sudo su
+<img width="241" alt="Screenshot 2023-08-03 215737" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/2947ccf2-7c43-4563-9325-ec469113d6d0">
 
 
 
