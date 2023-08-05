@@ -144,36 +144,53 @@ mvn --version
    - Configure SonarQube projects and quality gates as per your project requirements.
 
 sudo su
-<img width="241" alt="Screenshot 2023-08-03 215737" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/2947ccf2-7c43-4563-9325-ec469113d6d0">
+<img width="252" alt="Screenshot 2023-08-05 165738" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/f8a8b1e9-f2ae-4715-8c7e-1b90455d9821">
 
 hostname Sonarqube
-<img width="362" alt="Screenshot 2023-08-03 225402" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/0640cb7a-efde-4dea-a1f2-4b843ece1e2d">
+<img width="373" alt="Screenshot 2023-08-05 165930" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/74a88065-73ad-4517-8e29-5172f34fbe8d">
 
 bash
-<img width="267" alt="Screenshot 2023-08-03 225526" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/983325b2-21ee-4219-aa01-9f4af00db273">
+<img width="279" alt="Screenshot 2023-08-05 170059" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/46f25a1f-b9f8-4a0e-a971-a85169c05d01">
 
-## 5. Integrate Jenkins with SonarQube:
-    - Install SonarQube Scanner plugin in Jenkins and configure it with the SonarQube server URL and access token.
-    - Add a SonarQube analysis stage in your pipeline or a build step in your Freestyle project.
-
-java --version
-<img width="472" alt="Screenshot 2023-08-03 230144" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/98fe2ec7-2559-4a41-92b4-17e82cc2740c">
-
-apt-get update -y
-<img width="444" alt="Screenshot 2023-08-03 230510" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/bce98dbd-e822-4a1d-9c84-3396e77416c8">
+sudo apt-get update -y
+<img width="473" alt="Screenshot 2023-08-05 170259" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/677b55df-ab95-4554-a859-c0407c52c845">
 
 sudo apt-get install openjdk-11-jre-headless -y
-<img width="468" alt="Screenshot 2023-08-03 234437" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/5b2fe692-2254-4fc8-ae59-a42349b240ab">
+<img width="473" alt="Screenshot 2023-08-05 170523" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/50602ec7-46fa-41ac-818a-1daa1aee6c69">
 
 sudo apt-get install openjdk-8-jre-headless -y
-<img width="472" alt="Screenshot 2023-08-03 234818" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/b6884376-3092-4563-b39b-419739e5397e">
+<img width="470" alt="Screenshot 2023-08-05 170804" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/20384d9d-1039-4f19-84d9-96e3ddae4eb2">
 
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+<img width="469" alt="Screenshot 2023-08-05 171004" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ab1e1aef-75cb-4d14-85f7-33cc1364e53a">
 
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+    /etc/apt/sources.list.d/jenkins.list > /dev/null
+<img width="471" alt="Screenshot 2023-08-05 171133" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/67a055c5-dd62-490d-b2e3-1540eff8d021">
 
+sudo apt-get update -y
+<img width="471" alt="Screenshot 2023-08-05 171317" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ad2daedc-6cb7-46f6-8780-9b86a751512d">
 
+sudo apt-get install fontconfig openjdk-11-jre -y
+<img width="463" alt="Screenshot 2023-08-05 171458" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/6b787e7f-c878-447e-8c11-1414860cddbe">
 
+sudo apt-get install jenkins -y
+<img width="468" alt="Screenshot 2023-08-05 171807" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/5d71ce71-af4e-42a7-b86e-16824e42685a">
 
+sudo systemctl start jenkins
+<img width="380" alt="Screenshot 2023-08-05 171947" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/24127b54-4663-4be0-8ea7-4e13901023c0">
 
+sudo systemctl status jenkins
+<img width="470" alt="Screenshot 2023-08-05 172148" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d922a343-21f0-441a-915d-96d9f01e33eb">
 
+sudo systemctl enable jenkins
+<img width="472" alt="Screenshot 2023-08-05 172327" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/2513b0d1-9109-4d38-879e-c9e499cd1bf3">
 
+To assess Jenkins copy you public IP and open any browser paste your IP and run on port 8080
+<img width="439" alt="Screenshot 2023-08-05 182612" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/69567e96-0588-4f0b-ab79-60c30a4aba3c">
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword 
+<img width="473" alt="Screenshot 2023-08-05 182939" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/dade4cba-6ad3-4768-a09f-cbc04d7569d6">
 
