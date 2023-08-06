@@ -166,9 +166,26 @@ java -version
 cd /opt
 <img width="267" alt="Screenshot 2023-08-05 230403" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/3021b844-183d-458b-b3fc-6d38eb840199">
 
-wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.8.0.63668.zip?_gl=1*19zpsmh*_gcl_au*NzE1Nzg1NzUwLjE2OTExMTY5MDM.*_ga*NzI3NDY5ODU0LjE2OTExMTY5MDM.*_ga_9JZ0GZ5TC6*MTY5MTExNjkwMi4xLjEuMTY5MTExNzE4Ni40OS4wLjA.
-<img width="475" alt="Screenshot 2023-08-05 230652" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/9a4a00c2-2a8d-4d68-bf1f-7425a9afb410">
-
-
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.9.10.61524.zip
+<img width="495" alt="Screenshot 2023-08-05 232528" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/dac57ad2-97a7-4a39-af94-262d39c5fd53">
 
 ls -l
+<img width="951" alt="Screenshot 2023-08-05 232648" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/cb52ec30-77da-4a1d-8eb3-548d7743e67c">
+
+unzip sonarqube-8.9.10.61524.zip
+<img width="352" alt="Screenshot 2023-08-05 233108" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/59cadf90-13bd-4b75-880a-d7ab5f8effc7">
+
+sudo apt-get install unzip -y
+<img width="764" alt="Screenshot 2023-08-05 233509" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/e3eb0a07-d545-4a18-b02f-5072b010ce49">
+
+unzip sonarqube-8.9.10.61524.zip
+<img width="740" alt="Screenshot 2023-08-05 233627" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/15174ce6-45c3-4ee8-b088-1a1ca29d02fa">
+
+ls -l
+<img width="950" alt="Screenshot 2023-08-05 233808" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/54086a31-5f58-49e6-92c6-a2d5b88ef125">
+
+rm -rf sonarqube-8.9.10.61524.zip
+<img width="383" alt="Screenshot 2023-08-05 234128" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/c2f9f12c-b5bd-477e-b0ee-49e52ce93bb6">
+
+mv sonarqube-8.9.10.61524/ sonarqube-8
+<img width="398" alt="Screenshot 2023-08-05 234355" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/559d21fb-3c73-466e-a44f-d4756d84e1f0">
