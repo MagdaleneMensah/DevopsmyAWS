@@ -151,7 +151,16 @@ hostname Sonarqube
 <img width="373" alt="Screenshot 2023-08-05 165930" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/74a88065-73ad-4517-8e29-5172f34fbe8d">
 
 bash
-<img width="279" alt="Screenshot 2023-08-05 170059" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/46f25a1f-b9f8-4a0e-a971-a85169c05d01">
+<img width="356" alt="Screenshot 2023-08-05 222212" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/0e94e9fa-9d88-4c58-b2a8-191aa73ed1c8">
+
 
 sudo apt-get update -y
-<img width="473" alt="Screenshot 2023-08-05 170259" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/677b55df-ab95-4554-a859-c0407c52c845">
+<img width="471" alt="Screenshot 2023-08-05 222656" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/c9a3323d-3037-4d63-844e-9a7dd5fea621">
+
+sudo apt install default-jdk -y
+<img width="469" alt="Screenshot 2023-08-05 222932" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/cfa231c8-c28d-48be-8bba-95719b6135b6">
+
+java -version
+<img width="469" alt="Screenshot 2023-08-05 223141" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/cab8d8ff-7d4a-49c1-8c54-71fe9461b2cc">
+
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.8.0.63668.zip?_gl=1*1872mfk*_gcl_au*NzE1Nzg1NzUwLjE2OTExMTY5MDM.*_ga*NzI3NDY5ODU0LjE2OTExMTY5MDM.*_ga_9JZ0GZ5TC6*MTY5MTExNjkwMi4xLjEuMTY5MTExNzE4Ni40OS4wLjA.
