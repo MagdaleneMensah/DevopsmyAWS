@@ -163,4 +163,12 @@ sudo apt install default-jdk -y
 java -version
 <img width="469" alt="Screenshot 2023-08-05 223141" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/cab8d8ff-7d4a-49c1-8c54-71fe9461b2cc">
 
-wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.8.0.63668.zip?_gl=1*1872mfk*_gcl_au*NzE1Nzg1NzUwLjE2OTExMTY5MDM.*_ga*NzI3NDY5ODU0LjE2OTExMTY5MDM.*_ga_9JZ0GZ5TC6*MTY5MTExNjkwMi4xLjEuMTY5MTExNzE4Ni40OS4wLjA.
+cd /opt
+<img width="267" alt="Screenshot 2023-08-05 230403" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/3021b844-183d-458b-b3fc-6d38eb840199">
+
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.8.0.63668.zip?_gl=1*19zpsmh*_gcl_au*NzE1Nzg1NzUwLjE2OTExMTY5MDM.*_ga*NzI3NDY5ODU0LjE2OTExMTY5MDM.*_ga_9JZ0GZ5TC6*MTY5MTExNjkwMi4xLjEuMTY5MTExNzE4Ni40OS4wLjA.
+<img width="475" alt="Screenshot 2023-08-05 230652" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/9a4a00c2-2a8d-4d68-bf1f-7425a9afb410">
+
+
+
+ls -l
