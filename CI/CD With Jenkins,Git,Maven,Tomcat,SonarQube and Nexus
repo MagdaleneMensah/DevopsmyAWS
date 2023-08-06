@@ -198,4 +198,17 @@ useradd Mag
 <img width="230" alt="Screenshot 2023-08-05 235025" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/fca0fb5a-0e0b-438f-b9f6-137c563ad0be">
 
 passwd Mens
-<img width="222" alt="Screenshot 2023-08-05 235243" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/58095e30-f4ec-41e6-9c56-7333e31b02c4">
+<img width="254" alt="Screenshot 2023-08-05 235522" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/a9f7e7ed-78c2-459f-bf09-dbe640ab43cf">
+
+## Change Permissions
+chown -R Mag:Mag sonarqube-8/
+<img width="339" alt="Screenshot 2023-08-06 000158" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/c85eaa4f-33ab-4a06-adfd-eae71995596e">
+
+ls -l
+<img width="471" alt="Screenshot 2023-08-06 000309" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ba92048d-2552-40f6-9422-68f9449e184c">
+
+cat /etc/passwd
+<img width="470" alt="Screenshot 2023-08-06 001032" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/35be1217-0126-4eb8-baa3-fcff4e440199">
+
+cd sonarqube-8/
+<img width="250" alt="Screenshot 2023-08-06 001350" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/70c832ba-51b7-4960-bf5b-7d27d2c92859">
