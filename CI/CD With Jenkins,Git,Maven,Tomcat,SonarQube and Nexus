@@ -212,3 +212,89 @@ cat /etc/passwd
 
 cd sonarqube-8/
 <img width="250" alt="Screenshot 2023-08-06 001350" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/70c832ba-51b7-4960-bf5b-7d27d2c92859">
+
+ls -l
+<img width="422" alt="Screenshot 2023-08-06 002848" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/a0a4535e-b487-4033-9566-26ae868d9bef">
+
+cd conf/
+<img width="290" alt="Screenshot 2023-08-06 003117" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/61153d0f-c696-4967-be74-2b6f4f72ac3a">
+
+ls -l
+<img width="369" alt="Screenshot 2023-08-06 003306" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/08adb78a-751f-4c0e-b0bb-02fc5775d9da">
+
+cd ../bin/
+<img width="334" alt="Screenshot 2023-08-06 003939" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/86d3be81-525c-40cb-9edc-d5157d5030c2">
+
+ls -l
+<img width="398" alt="Screenshot 2023-08-06 004200" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ef7746a9-23a2-4e22-95d4-35e18a16194c">
+
+cd linux-x86-64/
+<img width="367" alt="Screenshot 2023-08-06 004519" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/7c7334f7-9242-4977-8cb2-298295e30dfc">
+
+ls -l
+<img width="382" alt="Screenshot 2023-08-06 004640" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/df09aca2-ae86-4f7a-9908-87f6b43552a1">
+
+vi sonar.sh
+<img width="471" alt="Screenshot 2023-08-06 004909" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/a0cef448-b024-4e75-a7fe-3400f24e0360">
+
+## provide the user name as 'Mag'
+<img width="428" alt="Screenshot 2023-08-06 005459" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/232ed7d3-e990-4734-a575-a7d4907e6c55">
+
+## start sonarqube
+./sonar.sh start
+<img width="442" alt="Screenshot 2023-08-06 005915" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/2ec50ead-cbfe-46e3-a678-0ebc3aa31163">
+
+./sonar.sh status
+<img width="449" alt="Screenshot 2023-08-06 010521" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/774f6410-c1b9-4f74-b8e1-20221fd95123">
+
+## Go into IP and run on port 9000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
