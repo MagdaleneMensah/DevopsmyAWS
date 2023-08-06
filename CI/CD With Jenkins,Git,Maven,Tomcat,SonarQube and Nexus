@@ -189,3 +189,13 @@ rm -rf sonarqube-8.9.10.61524.zip
 
 mv sonarqube-8.9.10.61524/ sonarqube-8
 <img width="398" alt="Screenshot 2023-08-05 234355" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/559d21fb-3c73-466e-a44f-d4756d84e1f0">
+
+ls -l
+<img width="951" alt="Screenshot 2023-08-05 234604" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/5b237192-8a63-4909-84e0-1f8de59a5b8a">
+
+## CREATE USER and PASSWORD
+useradd Mag
+<img width="230" alt="Screenshot 2023-08-05 235025" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/fca0fb5a-0e0b-438f-b9f6-137c563ad0be">
+
+passwd Mens
+<img width="222" alt="Screenshot 2023-08-05 235243" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/58095e30-f4ec-41e6-9c56-7333e31b02c4">
