@@ -268,8 +268,6 @@ sudo apt-get update -y
 java --version
 <img width="471" alt="Screenshot 2023-08-06 222359" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/79257684-d5fb-47a0-8c04-10317fee751d">
 
-sudo apt-get install openjdk-11-jre-headless -y
-<img width="473" alt="Screenshot 2023-08-06 222903" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/dfaa3514-c338-4507-b668-eb8e3f9d1674">
 
 sudo apt-get install openjdk-8-jre-headless -y
 <img width="470" alt="Screenshot 2023-08-06 223052" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/78ee1236-32b2-472b-a5ea-1682f0adc2c5">
@@ -286,11 +284,8 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
  sudo apt-get update -y
 <img width="472" alt="Screenshot 2023-08-06 223759" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/5cd403fc-13c6-48aa-bc25-6ae904c9e1f8">
 
-sudo apt-get install fontconfig openjdk-11-jre -y
-<img width="472" alt="Screenshot 2023-08-06 223940" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/350dda9e-7d30-41c1-b267-85a0d47e26c2">
-
-java --version
-<img width="469" alt="Screenshot 2023-08-06 224234" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/16b743a7-2a20-49e5-95aa-c8803b36759b">
+sudo apt install openjdk-8-jdk -y
+<img width="474" alt="Screenshot 2023-08-07 100418" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/69bfb3a2-2281-4053-80ca-dfe0c4a3a6d7">
 
 cd /opt
 <img width="243" alt="Screenshot 2023-08-06 225013" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/c6e50fde-0829-4b69-9577-a192ca044fb4">
