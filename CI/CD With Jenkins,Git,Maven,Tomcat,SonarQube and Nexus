@@ -17,9 +17,6 @@ bash
 sudo apt-get update -y
 <img width="470" alt="Screenshot 2023-08-02 193749" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/88a0fdc8-e279-4f4f-8f96-57c5954cb807">
 
-sudo hostnamectl set-hostname jenkins
-<img width="423" alt="Screenshot 2023-08-02 194055" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/7d680aea-e9b8-46f8-b6ab-b0881d017e36">
-
 sudo apt-get install openjdk-11-jre-headless -y
 <img width="472" alt="Screenshot 2023-08-02 194341" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/f130a186-405c-448c-9a74-bbca0a56bf68">
 
@@ -251,17 +248,109 @@ vi sonar.sh
 ## Go into IP and run on port 9000
 <img width="1120" alt="Screenshot 2023-08-06 210719" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/981f4fb6-bed0-49fb-babe-ec5ffa127783">
 
+## . Install and configure Nexus:
+    - Download and install Nexus repository manager from the official website.
+    - Start the Nexus server and access the dashboard using `http://localhost:8081`.
+    - Configure repositories and privileges based on your project requirements.
 
+sudo su
+<img width="256" alt="Screenshot 2023-08-06 212451" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/13b98b7a-66c1-4246-8c9c-afb96c23ba78">
 
+hostname Nexus
+<img width="362" alt="Screenshot 2023-08-06 212649" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ccecfb25-51d8-4e74-8a1d-1124926c5a3b">
 
+bash
+<img width="269" alt="Screenshot 2023-08-06 212745" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/06fd8705-d893-4cc7-8d34-53af26700efe">
 
+sudo apt-get update -y
+<img width="472" alt="Screenshot 2023-08-06 213114" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/dc3a245a-817e-4263-bb30-cf92b630682d">
 
+java --version
+<img width="471" alt="Screenshot 2023-08-06 222359" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/79257684-d5fb-47a0-8c04-10317fee751d">
 
+sudo apt-get install openjdk-11-jre-headless -y
+<img width="473" alt="Screenshot 2023-08-06 222903" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/dfaa3514-c338-4507-b668-eb8e3f9d1674">
 
+sudo apt-get install openjdk-8-jre-headless -y
+<img width="470" alt="Screenshot 2023-08-06 223052" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/78ee1236-32b2-472b-a5ea-1682f0adc2c5">
 
+ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+<img width="473" alt="Screenshot 2023-08-06 223329" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/0bbf8f90-9fcd-466c-9b39-51f1362b6343">
 
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+    /etc/apt/sources.list.d/jenkins.list > /dev/null
+<img width="471" alt="Screenshot 2023-08-06 223542" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/108eafd1-c5d4-47d4-bf93-9c5e904d2d01">
 
+ sudo apt-get update -y
+<img width="472" alt="Screenshot 2023-08-06 223759" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/5cd403fc-13c6-48aa-bc25-6ae904c9e1f8">
 
+sudo apt-get install fontconfig openjdk-11-jre -y
+<img width="472" alt="Screenshot 2023-08-06 223940" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/350dda9e-7d30-41c1-b267-85a0d47e26c2">
+
+java --version
+<img width="469" alt="Screenshot 2023-08-06 224234" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/16b743a7-2a20-49e5-95aa-c8803b36759b">
+
+cd /opt
+<img width="243" alt="Screenshot 2023-08-06 225013" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/c6e50fde-0829-4b69-9577-a192ca044fb4">
+
+wget https://download.sonatype.com/nexus/3/nexus-3.58.1-02-unix.tar.gz
+<img width="471" alt="Screenshot 2023-08-06 225303" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/9fc152c8-f1ef-4ea2-b69f-21a0138dfe2c">
+
+ls -l
+<img width="473" alt="Screenshot 2023-08-06 225536" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/9f6a8f10-9a40-4d29-97e2-f1a2c7a3b7ce">
+
+ tar -xvf nexus-3.58.1-02-unix.tar.gz
+<img width="882" alt="Screenshot 2023-08-06 225854" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/a088253d-4207-4ea6-86b2-3c7fcedfc6bf">
+
+ls -l
+<img width="502" alt="Screenshot 2023-08-06 230151" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/b08c1bc7-3a8a-4f73-9c33-c440421105b2">
+
+rm nexus-3.58.1-02-unix.tar.gz
+<img width="341" alt="Screenshot 2023-08-06 230409" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/2dac0fc5-db8f-4d1c-a66d-8d81b5cff75b">
+
+ls -l
+<img width="380" alt="Screenshot 2023-08-06 230701" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ad3fcb4b-bd3f-4d83-8bbe-ce4e24f6aea4">
+
+## Add user
+useradd nexus
+<img width="218" alt="Screenshot 2023-08-06 230956" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d74d6a9c-0cf6-41e4-8f76-e383d123e9fc">
+
+passwd nexus
+<img width="204" alt="Screenshot 2023-08-06 231239" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/a862b0e3-11f7-402e-b85a-5e0cee54d71d">
+
+chown -R nexus:nexus nexus-3.58.1-02
+<img width="357" alt="Screenshot 2023-08-06 231720" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ff1f10ef-b53f-46c8-a6c2-cdac3aa6c583">
+
+chown -R nexus:nexus sonatype-work
+<img width="344" alt="Screenshot 2023-08-06 232011" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/a5c1ef7e-a23a-498b-8402-618e864b1aae">
+
+ls -l
+<img width="413" alt="Screenshot 2023-08-06 232124" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ddd0731b-5928-4b69-89e3-b3c4f75c3219">
+
+cd nexus-3.58.1-02/
+<img width="255" alt="Screenshot 2023-08-06 232358" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/62c7d930-f21f-4761-b14a-f5525eaa77a4">
+
+ls -l
+<img width="415" alt="Screenshot 2023-08-06 232502" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/285fdb98-b209-468a-a7b4-d0d1024e2018">
+
+cd bin/
+<img width="273" alt="Screenshot 2023-08-06 232725" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/2d796c40-71bf-475b-9b4b-f53f984e4b5f">
+
+ls -l
+<img width="400" alt="Screenshot 2023-08-06 232816" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/e02bcab8-1795-472f-a0df-2263277d1698">
+
+vi nexus.rc
+<img width="471" alt="Screenshot 2023-08-06 233043" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/e144e842-bef5-4903-9a90-39c953f1a7bf">
+
+## provide the user as nexus
+<img width="473" alt="Screenshot 2023-08-06 233418" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/c37c45a6-76c7-486b-b0fa-14ec1d450a55">
+
+./nexus start
+<img width="471" alt="Screenshot 2023-08-06 233838" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/81f78ee0-f2ac-493c-90a5-629733e3453b">
+
+./nexus status
 
 
 
