@@ -268,6 +268,10 @@ sudo apt-get update -y
 sudo apt install openjdk-8-jdk -y
 <img width="474" alt="Screenshot 2023-08-07 100418" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/69bfb3a2-2281-4053-80ca-dfe0c4a3a6d7">
 
+java -version
+<img width="455" alt="Screenshot 2023-08-07 101703" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/90271a12-a135-4143-b2d9-beb6359db8a7">
+
+
 cd /opt
 <img width="243" alt="Screenshot 2023-08-06 225013" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/c6e50fde-0829-4b69-9577-a192ca044fb4">
 
