@@ -265,25 +265,6 @@ bash
 sudo apt-get update -y
 <img width="472" alt="Screenshot 2023-08-06 213114" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/dc3a245a-817e-4263-bb30-cf92b630682d">
 
-java --version
-<img width="471" alt="Screenshot 2023-08-06 222359" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/79257684-d5fb-47a0-8c04-10317fee751d">
-
-
-sudo apt-get install openjdk-8-jre-headless -y
-<img width="470" alt="Screenshot 2023-08-06 223052" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/78ee1236-32b2-472b-a5ea-1682f0adc2c5">
-
- curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
-    /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-<img width="473" alt="Screenshot 2023-08-06 223329" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/0bbf8f90-9fcd-466c-9b39-51f1362b6343">
-
-echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-    https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-    /etc/apt/sources.list.d/jenkins.list > /dev/null
-<img width="471" alt="Screenshot 2023-08-06 223542" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/108eafd1-c5d4-47d4-bf93-9c5e904d2d01">
-
- sudo apt-get update -y
-<img width="472" alt="Screenshot 2023-08-06 223759" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/5cd403fc-13c6-48aa-bc25-6ae904c9e1f8">
-
 sudo apt install openjdk-8-jdk -y
 <img width="474" alt="Screenshot 2023-08-07 100418" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/69bfb3a2-2281-4053-80ca-dfe0c4a3a6d7">
 
