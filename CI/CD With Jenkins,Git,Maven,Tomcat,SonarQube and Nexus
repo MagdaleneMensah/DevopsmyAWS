@@ -350,6 +350,9 @@ hostname Tomcat
 bash
 <img width="293" alt="Screenshot 2023-08-07 225617" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/189e4c8a-1718-4d31-b52f-44a6dac69454">
 
+sudo apt-get update -y
+<img width="470" alt="Screenshot 2023-08-08 010128" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/8cdf2600-c294-48f7-831e-128f7bdfe094">
+
 cd /opt
 <img width="231" alt="Screenshot 2023-08-07 231901" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/457ae5de-215b-4aa7-be1f-bee8f66c1442">
 
