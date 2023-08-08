@@ -380,12 +380,26 @@ cd /home/
 ls
 <img width="164" alt="Screenshot 2023-08-07 234036" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/0cb8a050-c5fd-4892-bfa7-c1b204695fc3">
 
+cd -
+<img width="173" alt="Screenshot 2023-08-07 234720" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/1ee8eab2-8c88-44fc-8b03-f228fb2703cd">
 
+ls -l
+<img width="329" alt="Screenshot 2023-08-07 234831" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/76dc4179-9a01-40c9-9fe0-aa3c0e57ad78">
 
+chown -R ubuntu:ubuntu tomcat-9/
+<img width="335" alt="Screenshot 2023-08-07 235418" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d4b7b846-e436-4a7d-b09e-23b5ec7dacdd">
 
+cd tomcat-9/
+<img width="212" alt="Screenshot 2023-08-08 000125" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/20412e09-3ad0-4dc2-b243-5ca8f0c4c597">
 
+ls -l
+<img width="411" alt="Screenshot 2023-08-08 000254" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/7c7c9c16-95ff-4aba-b3d8-14895c039668">
 
+cd bin/
+<img width="252" alt="Screenshot 2023-08-08 000357" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d0635c9c-ff8b-4322-b496-33834949393f">
 
+ls -l
+<img width="472" alt="Screenshot 2023-08-08 000551" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/9a4c0db9-ec3b-43cc-9a45-f1811834ed69">
 
 
 
