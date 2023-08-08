@@ -356,6 +356,10 @@ sudo apt-get update -y
 sudo apt-get install openjdk-11-jre-headless -y
 <img width="471" alt="Screenshot 2023-08-08 010623" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/0970f770-05d2-483d-b275-ab47524d22a8">
 
+sudo apt-get install openjdk-8-jre-headless -y
+<img width="471" alt="Screenshot 2023-08-08 012426" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/b1fb0a75-0f41-4c04-83e2-f6479ef24bdb">
+
+
 cd /opt
 <img width="231" alt="Screenshot 2023-08-07 231901" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/457ae5de-215b-4aa7-be1f-bee8f66c1442">
 
