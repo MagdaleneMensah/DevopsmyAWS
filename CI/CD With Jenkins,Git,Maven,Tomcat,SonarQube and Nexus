@@ -341,8 +341,14 @@ cat /opt/sonatype-work/nexus3/admin.password
    - Configure Tomcat by setting environment variables, server.xml, and web.xml based on your requirements.
    - Start the Tomcat server.
 
+sudo su
+<img width="273" alt="Screenshot 2023-08-07 225211" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/1191fc53-c0dd-4684-a84f-980a64169af2">
 
+hostname Tomcat
+<img width="346" alt="Screenshot 2023-08-07 225454" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/97aa8e47-64f7-40cd-bdc6-d83469ac85f5">
 
+bash
+<img width="293" alt="Screenshot 2023-08-07 225617" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/189e4c8a-1718-4d31-b52f-44a6dac69454">
 
 
 
