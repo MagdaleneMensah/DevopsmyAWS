@@ -350,10 +350,35 @@ hostname Tomcat
 bash
 <img width="293" alt="Screenshot 2023-08-07 225617" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/189e4c8a-1718-4d31-b52f-44a6dac69454">
 
+cd /opt
+<img width="231" alt="Screenshot 2023-08-07 231901" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/457ae5de-215b-4aa7-be1f-bee8f66c1442">
 
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.78/bin/apache-tomcat-9.0.78.tar.gz
+<img width="472" alt="Screenshot 2023-08-07 232130" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/9f102039-645c-43a0-99f6-ea6495e6356c">
 
+ls -l
+<img width="470" alt="Screenshot 2023-08-07 232339" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/54919569-36fe-4d66-90f3-e89107508683">
 
+tar -xvf apache-tomcat-9.0.78.tar.gz
+<img width="468" alt="Screenshot 2023-08-07 232726" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/51d08279-cb87-46be-8db1-f33c33b050d7">
 
+ls -l
+<img width="471" alt="Screenshot 2023-08-07 232849" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/546f108d-2c22-459e-87ae-c1bd9f6d8974">
+
+rm -rf apache-tomcat-9.0.78.tar.gz
+<img width="353" alt="Screenshot 2023-08-07 233049" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/fc5530df-d95a-4114-82bf-f4f68b1d7ea6">
+
+mv apache-tomcat-9.0.78/ tomcat-9 
+<img width="371" alt="Screenshot 2023-08-07 233426" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/a7677515-800d-4fb3-8923-c5268e4c9a8e">
+
+ls -l
+<img width="336" alt="Screenshot 2023-08-07 233531" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/cd3ffeee-e95d-47b4-b958-3b0dcdc6d79b">
+
+cd /home/
+<img width="194" alt="Screenshot 2023-08-07 233856" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/96e563d7-e897-4e3e-9246-12228ebfda9f">
+
+ls
+<img width="164" alt="Screenshot 2023-08-07 234036" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/0cb8a050-c5fd-4892-bfa7-c1b204695fc3">
 
 
 
