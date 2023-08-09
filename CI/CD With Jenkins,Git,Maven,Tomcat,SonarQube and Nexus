@@ -544,6 +544,15 @@ Select the project number and click on Console output
    - In the Jenkins global configuration, specify the installed Maven path.
    - Set up Maven tool installation using the Jenkins dashboard.
 
+Go to Jenkins Dashboard and select Manage Jenkins
+<img width="952" alt="Screenshot 2023-08-09 021303" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/7796f11b-6ae3-4d76-8b68-4f2c2c2e2378">
 
+select Tools
+<img width="952" alt="Screenshot 2023-08-09 021303" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/95c356e4-6a3d-4719-8f1a-4ce28d05328f">
+
+select Add Maven,unselect Maven and name it maven-3.9.4
+<img width="476" alt="Screenshot 2023-08-09 022837" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ac399243-22d9-41af-b1f5-a1386df22e4a">
+
+Apply and Save
 
 
