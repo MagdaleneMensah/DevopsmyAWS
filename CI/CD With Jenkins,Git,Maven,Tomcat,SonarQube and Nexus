@@ -411,6 +411,73 @@ cd bin/
 ls -l
 <img width="472" alt="Screenshot 2023-08-08 000551" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/9a4c0db9-ec3b-43cc-9a45-f1811834ed69">
 
+./startup.sh
+<img width="469" alt="Screenshot 2023-08-08 172055" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/26947163-f4c3-4601-aa2d-4937a416cace">
+
+## open your browser and past your public IP and run it on port 8080
+<img width="884" alt="Screenshot 2023-08-08 172737" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/8e04cbdd-7388-472b-8f03-916a60d0435e">
+
+cd /opt
+<img width="279" alt="Screenshot 2023-08-08 172935" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/21aee24d-0fa9-4718-ae1a-d62bfc10700c">
+
+ls -l
+<img width="360" alt="Screenshot 2023-08-08 173138" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/77f55079-8ab7-4532-ac8f-60d2ae090430">
+
+cd tomcat-9/
+<img width="223" alt="Screenshot 2023-08-08 180015" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/abfa8c0c-80f8-481d-9512-55d1f785245a">
+
+ls -l
+<img width="415" alt="Screenshot 2023-08-08 180148" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/3e55b3ed-6f99-4537-b9cd-e97a8f8a80cf">
+
+cd webapps/
+<img width="261" alt="Screenshot 2023-08-08 180429" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/8a7afd26-c458-444f-8b40-48e2b3795152">
+
+ls -l
+<img width="376" alt="Screenshot 2023-08-08 180703" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/9194d382-510b-4396-a143-09874ea5bbe7">
+
+cd manager/
+<img width="320" alt="Screenshot 2023-08-08 180820" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/00dd3106-01a8-4f35-9928-1da845b57bea">
+
+ls -l
+<img width="365" alt="Screenshot 2023-08-08 181156" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ccc5f404-3c90-4b2a-9bd7-9875d88a4e63">
+
+cd META-INF/
+<img width="374" alt="Screenshot 2023-08-08 181430" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/6f645318-6034-4a0d-84e5-0034bb02853c">
+
+ls -l
+<img width="386" alt="Screenshot 2023-08-08 181555" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/81e924d8-016d-4e39-b546-7f1a335f5d6c">
+
+vi context.xml
+<img width="472" alt="Screenshot 2023-08-08 181905" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/bdd4d7c0-4662-46af-a872-81eb51c54677">
+
+## comment the value (  <!-- <Valve className="org.apache.catalina.valves.RemoteAddrValve"
+     allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> --> )
+<img width="471" alt="Screenshot 2023-08-08 223717" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/b3afa83d-b6fe-4140-aa6a-17db38fbaf78">
+
+cd /opt/tomcat-9/bin/
+<img width="472" alt="Screenshot 2023-08-08 224213" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/505fa1a2-cc41-42b2-9fd2-6a91bcc14e53">
+
+ls -l
+<img width="472" alt="Screenshot 2023-08-08 224347" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/191f4505-e6a6-4f55-a476-b60c23aa55b6">
+
+./shutdown.sh
+<img width="473" alt="Screenshot 2023-08-08 224726" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/034ff8fb-54b7-46af-8306-7ad6f61a3bc4">
+
+./startup.sh
+<img width="469" alt="Screenshot 2023-08-08 225309" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/477f9621-f54a-4146-9bc5-c01219d48bb5">
+
+ls -l
+<img width="472" alt="Screenshot 2023-08-08 225431" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/12391fc8-0af1-4e14-82f5-37a545d3c7ee">
+
+pwd
+<img width="245" alt="Screenshot 2023-08-08 225646" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/ef85e834-aaed-4fbe-b780-748865e6c7ac">
+
+ln -s /opt/tomcat-9/bin/startup.sh /usr/bin/startTomcat
+<img width="473" alt="Screenshot 2023-08-08 230101" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/e858a8bc-3210-4c83-baf3-843d8d956ed6">
+
+ln -s /opt/tomcat-9/bin/shutdown.sh /usr/bin/stopTomcat
+<img width="470" alt="Screenshot 2023-08-08 230431" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d5e890d2-553a-4c6f-a355-8f12f37a1ded">
+
 
 
 
