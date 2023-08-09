@@ -478,8 +478,39 @@ ln -s /opt/tomcat-9/bin/startup.sh /usr/bin/startTomcat
 ln -s /opt/tomcat-9/bin/shutdown.sh /usr/bin/stopTomcat
 <img width="470" alt="Screenshot 2023-08-08 230431" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d5e890d2-553a-4c6f-a355-8f12f37a1ded">
 
+ls -l
+<img width="471" alt="Screenshot 2023-08-08 231549" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/6712c76b-bd25-4355-8f96-7d82b44abeea">
+
+cd ../conf/
+<img width="284" alt="Screenshot 2023-08-08 231922" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d3b8aead-f558-4878-ad92-be029209f26d">
+
+ls -l
+<img width="451" alt="Screenshot 2023-08-08 232157" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/b84da870-a8ac-4e1f-ac6c-c8ac0b355e0f">
+
+vi tomcat-users.xml
+<img width="474" alt="Screenshot 2023-08-08 232612" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/be11ff02-d8e9-4a8a-83b1-77567336e3cd">
+
+edit role and user
+<img width="474" alt="Screenshot 2023-08-08 235348" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d7245a1b-a463-4adf-a15a-e3081c99e1fb">
+
+stopTomcat
+<img width="472" alt="Screenshot 2023-08-08 235616" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/32a9e5dc-caaa-455f-b4df-da6da82e3dd9">
+
+startTomcat
+<img width="474" alt="Screenshot 2023-08-08 235946" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/d7de4003-32a4-4640-b318-4aad5cab41ba">
+
+## select server status to see the output below
+<img width="477" alt="Screenshot 2023-08-09 000525" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/3db1f4a4-ca65-4413-a4ce-1224a20089c0">
+
+select manager App to see the output below
+<img width="468" alt="Screenshot 2023-08-09 000807" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/56e16446-3635-40de-aa8a-45b021f22047">
+
+# Now that your ready and running ,let start with the 'INTEGRATIONS'
 
 
-
+## 7. Set up Tomcat:
+   - Download and install Apache Tomcat from the official website.
+   - Configure Tomcat by setting environment variables, server.xml, and web.xml based on your requirements.
+   - Start the Tomcat server.
 
 
