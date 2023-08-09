@@ -558,3 +558,28 @@ Apply and Save
 Now go to the Jenkins Job and select CICD-SampleApp
 <img width="474" alt="Screenshot 2023-08-09 023221" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/8c4ed79e-40da-4579-b184-b99ccd313c4b">
 
+Go to Configure,select pipeline and add one more stage with the name Build Maven,add tools
+
+pipeline{
+    agent any
+    tools{
+        maven 'maven-3.9.4'
+    }
+    stages{
+        stage('Git Checkout'){
+            steps{
+                git url:'https://github.com/MagdaleneMensah/DevopsmyAWS.git',branch:'main'
+            }
+        }
+        stage('Build Maven Application'){
+            steps{
+                sh 'mvn clean package'
+                
+            }
+        }
+    }
+<img width="468" alt="Screenshot 2023-08-09 024948" src="https://github.com/MagdaleneMensah/DevopsmyAWS/assets/133181270/fa4eecea-3281-49f0-b252-72a4c86ef090">
+
+Apply and Save
+
+select Build Now
